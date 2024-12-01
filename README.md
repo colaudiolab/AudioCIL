@@ -1,4 +1,4 @@
-# AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes
+# AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with Multiple Scenes
 
 ---
 
