@@ -1,4 +1,4 @@
-# PyCIL: A Python Toolbox for Class-Incremental Learning
+# AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes
 
 ---
 
@@ -27,36 +27,10 @@
 
 </div>
 
-Welcome to PyCIL, perhaps the toolbox for class-incremental learning with the **most** implemented methods. This is the code repository for "PyCIL: A Python Toolbox for Class-Incremental Learning" [[paper]](https://arxiv.org/abs/2112.12533) in PyTorch. If you use any content of this repo for your work, please cite the following bib entries:
-
-    @article{zhou2023pycil,
-        author = {Da-Wei Zhou and Fu-Yun Wang and Han-Jia Ye and De-Chuan Zhan},
-        title = {PyCIL: a Python toolbox for class-incremental learning},
-        journal = {SCIENCE CHINA Information Sciences},
-        year = {2023},
-        volume = {66},
-        number = {9},
-        pages = {197101},
-        doi = {https://doi.org/10.1007/s11432-022-3600-y}
-      }
-    
-    @article{zhou2024class,
-        author = {Zhou, Da-Wei and Wang, Qi-Wei and Qi, Zhi-Hong and Ye, Han-Jia and Zhan, De-Chuan and Liu, Ziwei},
-        title = {Class-Incremental Learning: A Survey},
-        journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-        year = {2024}
-     }
-
-    @inproceedings{zhou2024continual,
-        title={Continual learning with pre-trained models: A survey},
-        author={Zhou, Da-Wei and Sun, Hai-Long and Ning, Jingyi and Ye, Han-Jia and Zhan, De-Chuan},
-        booktitle={IJCAI},
-        pages={8363-8371},
-        year={2024}
-    }
+Welcome to AudioCIL, perhaps the toolbox for class-incremental learning with the **most** implemented methods. This is the code repository for "AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes" [[paper]](xxx) in PyTorch. If you use any content of this repo for your work, please cite the following bib entries:
 
 
-## What's New
+<!-- ## What's New
 - [2024-10]🌟 Check out our [latest work](https://arxiv.org/abs/2410.00911) on pre-trained model-based domain-incremental learning! 
 - [2024-08]🌟 Check out our [latest work](https://arxiv.org/abs/2303.07338) on pre-trained model-based class-incremental learning (**IJCV 2024**)!
 - [2024-07]🌟 Check out our [rigorous and unified survey](https://arxiv.org/abs/2302.03648) about class-incremental learning, which introduces some memory-agnostic measures with holistic evaluations from multiple aspects (**TPAMI 2024**)!
@@ -71,9 +45,9 @@ Welcome to PyCIL, perhaps the toolbox for class-incremental learning with the **
 - [2022-08]🌟 Add RMM.
 - [2022-07]🌟 Add [FOSTER](https://arxiv.org/abs/2204.04662). State-of-the-art method with a single backbone!
 - [2021-12]🌟 **Call For Feedback**: We add a <a href="#Awesome-Papers-using-PyCIL">section</a> to introduce awesome works using PyCIL. If you are using PyCIL to publish your work in  top-tier conferences/journals, feel free to [contact us](mailto:zhoudw@lamda.nju.edu.cn) for details!
-- [2021-12]🌟 As team members are committed to other projects and in light of the intense demands of code reviews, **we will prioritize reviewing algorithms that have explicitly cited and implemented methods from our toolbox paper in their publications.** Please read the [PR policy](resources/PR_policy.md) before submitting your code.
+- [2021-12]🌟 As team members are committed to other projects and in light of the intense demands of code reviews, **we will prioritize reviewing algorithms that have explicitly cited and implemented methods from our toolbox paper in their publications.** Please read the [PR policy](resources/PR_policy.md) before submitting your code. -->
 
-## Introduction
+<!-- ## Introduction
 
 Traditional machine learning systems are deployed under the closed-world setting, which requires the entire training data before the offline training process. However, real-world applications often face the incoming new classes, and a model should incorporate them continually. The learning paradigm is called Class-Incremental Learning (CIL). We propose a Python toolbox that implements several key algorithms for class-incremental learning to ease the burden of researchers in the machine learning community. The toolbox contains implementations of a number of founding works of CIL, such as EWC and iCaRL, but also provides current state-of-the-art algorithms that can be used for conducting novel fundamental research. This toolbox, named PyCIL for Python Class-Incremental Learning, is open source with an MIT license.
 
@@ -258,5 +232,5 @@ If there are any questions, please feel free to  propose new features by opening
 
 ## Star History 🚀
 
-[![Star History Chart](https://api.star-history.com/svg?repos=G-U-N/PyCIL&type=Date)](https://star-history.com/#G-U-N/PyCIL&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=G-U-N/PyCIL&type=Date)](https://star-history.com/#G-U-N/PyCIL&Date) -->
 
