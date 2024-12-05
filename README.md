@@ -43,10 +43,10 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `POD-Net`: Constrains network with pooled outputs distillation.[[paper](https://arxiv.org/abs/2004.13513)]
 - `DER`: Features a two-stage, dynamically expandable representation for incremental learning.[[paper](https://arxiv.org/abs/2103.16788)]
 - `Coil`: Facilitates bidirectional knowledge transfer using optimal transport.[[paper](https://arxiv.org/abs/2107.12654)]
-- `ACIL`: Replaces neural network classifier with an analytic one, preserving prior knowledge.[[paper]()]
-- `META-SC`: Combines a fixed feature extractor for general representation with a stochastic classifier for new classes.[[paper]()]
-- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.[[paper]()]
-- `AMFO`: Separates features into task-general and task-specific layers, with a fusion module for balance.[[paper]()]
+- `ACIL`: Replaces neural network classifier with an analytic one, preserving prior knowledge. NeurIPS2022[[paper](https://arxiv.org/abs/2205.14922)]
+- `META-SC`: Combines a fixed feature extractor for general representation with a stochastic classifier for new classes.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
+- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.[[paper](https://arxiv.org/abs/2305.19539)]
+- `AMFO`: Separates features into task-general and task-specific layers, with a fusion module for balance.[[paper](https://ieeexplore.ieee.org/document/10494541)]
 ## Reproduced Results
 ## How To Use
 ## License
