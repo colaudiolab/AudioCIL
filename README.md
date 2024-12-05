@@ -49,6 +49,15 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting.[[paper](https://ieeexplore.ieee.org/document/10494541)]
 ## Reproduced Results
 ## How To Use
+### Clone
+
+Clone this GitHub repository:
+
+```
+git clone https://github.com/colaudiolab/AudioCIL.git
+cd PyCIL
+```
+
 ## License
 ## Acknowledgments
 ## Contact
