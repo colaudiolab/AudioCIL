@@ -29,7 +29,29 @@
 
 Welcome to AudioCIL, perhaps the toolbox for class-incremental learning with the **most** implemented methods. This is the code repository for "AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes" [[paper]](xxx) in PyTorch. If you use any content of this repo for your work, please cite the following bib entries:
 
-
+## Introduction
+## Methods Reproduced
+In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art algorithms for incremental learning.
+- `FineTune`: Updates model with new task data, prone to catastrophic forgetting.
+- `Replay`: Updates model with a mix of new data and samples from a replay buffer.
+- `EWC`: Uses Fisher Information Matrix for regularization against forgetting.[[paper](https://arxiv.org/abs/1612.00796)]
+- `LwF`:Aligns old and new model outputs via knowledge distillation.[[paper](https://arxiv.org/abs/1606.09282)]
+- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.[[paper]()]
+- `GEM`: Includes exemplars in gradient updating.[[paper]()]
+- `BiC`: Adds an adaptation layer to iCaRL for new class logits adjustment.[[paper]()]
+- `WA`: Normalizes weights post-learning, following iCaRL principles.[[paper]()]
+- `POD-Net`: Constrains network with pooled outputs distillation.[[paper]()]
+- `DER`: Features a two-stage, dynamically expandable representation for incremental learning.[[paper]()]
+- `Coil`: Facilitates bidirectional knowledge transfer using optimal transport.[[paper]()]
+- `ACIL`: Replaces neural network classifier with an analytic one, preserving prior knowledge.[[paper]()]
+- `META-SC`: Combines a fixed feature extractor for general representation with a stochastic classifier for new classes.[[paper]()]
+- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.[[paper]()]
+- `AMFO`: Separates features into task-general and task-specific layers, with a fusion module for balance.[[paper]()]
+## Reproduced Results
+## How To Use
+## License
+## Acknowledgments
+## Contact
 <!-- ## What's New
 - [2024-10]🌟 Check out our [latest work](https://arxiv.org/abs/2410.00911) on pre-trained model-based domain-incremental learning! 
 - [2024-08]🌟 Check out our [latest work](https://arxiv.org/abs/2303.07338) on pre-trained model-based class-incremental learning (**IJCV 2024**)!
