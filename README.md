@@ -34,19 +34,19 @@ Welcome to AudioCIL, perhaps the toolbox for class-incremental learning with the
 In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art algorithms for incremental learning.
 - `FineTune`: Updates model with new task data, prone to catastrophic forgetting.
 - `Replay`: Updates model with a mix of new data and samples from a replay buffer.
-- `EWC`: Uses Fisher Information Matrix for regularization against forgetting.[[paper](https://arxiv.org/abs/1612.00796)]
-- `LwF`:Aligns old and new model outputs via knowledge distillation.ECCV2016[[paper](https://arxiv.org/abs/1606.09282)]
-- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.CVPR2017[[paper](https://arxiv.org/abs/1611.07725)]
-- `GEM`: Includes exemplars in gradient updating.NIPS2017[[paper](https://arxiv.org/abs/1706.08840)]
-- `BiC`: Adds an adaptation layer to iCaRL for new class logits adjustment.CVPR2020[[paper](https://arxiv.org/abs/1905.13260)]
-- `WA`: Normalizes weights post-learning, following iCaRL principles.CVPR2020[[paper](https://arxiv.org/abs/1911.07053)]
-- `POD-Net`: Constrains network with pooled outputs distillation.ECCV2020[[paper](https://arxiv.org/abs/2004.13513)]
-- `DER`: Features a two-stage, dynamically expandable representation for incremental learning.CVPR2021[[paper](https://arxiv.org/abs/2103.16788)]
-- `Coil`: Facilitates bidirectional knowledge transfer using optimal transport.ACM Multimedia 2021[[paper](https://arxiv.org/abs/2107.12654)]
-- `ACIL`: Replaces neural network classifier with an analytic one, preserving prior knowledge. NeurIPS2022[[paper](https://arxiv.org/abs/2205.14922)]
-- `META-SC`: Combines a fixed feature extractor for general representation with a stochastic classifier for new classes.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
-- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.IEEE TMM[[paper](https://arxiv.org/abs/2305.19539)]
-- `AMFO`: Separates features into task-general and task-specific layers, with a fusion module for balance.[[paper](https://ieeexplore.ieee.org/document/10494541)]
+- `EWC`: Overcoming catastrophic forgetting in neural networks. PNAS2017[[paper](https://arxiv.org/abs/1612.00796)]
+- `LwF`:Learning without Forgetting.ECCV2016[[paper](https://arxiv.org/abs/1606.09282)]
+- `iCaRL`:  Incremental Classifier and Representation Learning.CVPR2017[[paper](https://arxiv.org/abs/1611.07725)]
+- `GEM`: Gradient Episodic Memory for Continual Learning.NIPS2017[[paper](https://arxiv.org/abs/1706.08840)]
+- `BiC`: Large Scale Incremental Learning.CVPR2019[[paper](https://arxiv.org/abs/1905.13260)]
+- `WA`: Maintaining Discrimination and Fairness in Class Incremental Learning.CVPR2020[[paper](https://arxiv.org/abs/1911.07053)]
+- `POD-Net`: Pooled Outputs Distillation for Small-Tasks Incremental Learning.ECCV2020[[paper](https://arxiv.org/abs/2004.13513)]
+- `DER`: Dynamically Expandable Representation for Class Incremental Learning.CVPR2021[[paper](https://arxiv.org/abs/2103.16788)]
+- `Coil`: Co-Transport for Class-Incremental Learning.ACM MM 2021[[paper](https://arxiv.org/abs/2107.12654)]
+- `ACIL`: Analytic Class-Incremental Learning with Absolute Memorization and Privacy Protection. NeurIPS2022[[paper](https://arxiv.org/abs/2205.14922)]
+- `META-SC`: Few-shot Class-incremental Audio Classification Using Stochastic Classifier.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
+- `PAN`: Few-shot Class-incremental Audio Classification Using Dynamically Expanded Classifier with Self-attention Modified Prototypes.IEEE TMM[[paper](https://arxiv.org/abs/2305.19539)]
+- `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting.[[paper](https://ieeexplore.ieee.org/document/10494541)]
 ## Reproduced Results
 ## How To Use
 ## License
