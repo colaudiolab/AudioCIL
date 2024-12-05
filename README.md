@@ -47,8 +47,11 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `META-SC`: Few-shot Class-incremental Audio Classification Using Stochastic Classifier.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
 - `PAN`: Few-shot Class-incremental Audio Classification Using Dynamically Expanded Classifier with Self-attention Modified Prototypes.IEEE TMM[[paper](https://arxiv.org/abs/2305.19539)]
 - `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting.[[paper](https://ieeexplore.ieee.org/document/10494541)]
+
 ## Reproduced Results
+
 ## How To Use
+
 ### Clone
 
 Clone this GitHub repository:
@@ -59,8 +62,12 @@ cd PyCIL
 ```
 
 ## License
+Please check the MIT  [license](./LICENSE) that is listed in this repository.
+
 ## Acknowledgments
+
 ## Contact
+
 <!-- ## What's New
 - [2024-10]🌟 Check out our [latest work](https://arxiv.org/abs/2410.00911) on pre-trained model-based domain-incremental learning! 
 - [2024-08]🌟 Check out our [latest work](https://arxiv.org/abs/2303.07338) on pre-trained model-based class-incremental learning (**IJCV 2024**)!
