@@ -35,17 +35,17 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `FineTune`: Updates model with new task data, prone to catastrophic forgetting.
 - `Replay`: Updates model with a mix of new data and samples from a replay buffer.
 - `EWC`: Uses Fisher Information Matrix for regularization against forgetting.[[paper](https://arxiv.org/abs/1612.00796)]
-- `LwF`:Aligns old and new model outputs via knowledge distillation.[[paper](https://arxiv.org/abs/1606.09282)]
-- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.[[paper](https://arxiv.org/abs/1611.07725)]
-- `GEM`: Includes exemplars in gradient updating.[[paper](https://arxiv.org/abs/1706.08840)]
-- `BiC`: Adds an adaptation layer to iCaRL for new class logits adjustment.[[paper](https://arxiv.org/abs/1905.13260)]
-- `WA`: Normalizes weights post-learning, following iCaRL principles.[[paper](https://arxiv.org/abs/1911.07053)]
-- `POD-Net`: Constrains network with pooled outputs distillation.[[paper](https://arxiv.org/abs/2004.13513)]
-- `DER`: Features a two-stage, dynamically expandable representation for incremental learning.[[paper](https://arxiv.org/abs/2103.16788)]
-- `Coil`: Facilitates bidirectional knowledge transfer using optimal transport.[[paper](https://arxiv.org/abs/2107.12654)]
+- `LwF`:Aligns old and new model outputs via knowledge distillation.ECCV2016[[paper](https://arxiv.org/abs/1606.09282)]
+- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.CVPR2017[[paper](https://arxiv.org/abs/1611.07725)]
+- `GEM`: Includes exemplars in gradient updating.NIPS2017[[paper](https://arxiv.org/abs/1706.08840)]
+- `BiC`: Adds an adaptation layer to iCaRL for new class logits adjustment.CVPR2020[[paper](https://arxiv.org/abs/1905.13260)]
+- `WA`: Normalizes weights post-learning, following iCaRL principles.CVPR2020[[paper](https://arxiv.org/abs/1911.07053)]
+- `POD-Net`: Constrains network with pooled outputs distillation.ECCV2020[[paper](https://arxiv.org/abs/2004.13513)]
+- `DER`: Features a two-stage, dynamically expandable representation for incremental learning.CVPR2021[[paper](https://arxiv.org/abs/2103.16788)]
+- `Coil`: Facilitates bidirectional knowledge transfer using optimal transport.ACM Multimedia 2021[[paper](https://arxiv.org/abs/2107.12654)]
 - `ACIL`: Replaces neural network classifier with an analytic one, preserving prior knowledge. NeurIPS2022[[paper](https://arxiv.org/abs/2205.14922)]
 - `META-SC`: Combines a fixed feature extractor for general representation with a stochastic classifier for new classes.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
-- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.[[paper](https://arxiv.org/abs/2305.19539)]
+- `PAN`: Decouples feature extraction from class prototype adaptation and classifier expansion.IEEE TMM[[paper](https://arxiv.org/abs/2305.19539)]
 - `AMFO`: Separates features into task-general and task-specific layers, with a fusion module for balance.[[paper](https://ieeexplore.ieee.org/document/10494541)]
 ## Reproduced Results
 ## How To Use
