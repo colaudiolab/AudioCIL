@@ -36,8 +36,8 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `Replay`: Updates model with a mix of new data and samples from a replay buffer.
 - `EWC`: Uses Fisher Information Matrix for regularization against forgetting.[[paper](https://arxiv.org/abs/1612.00796)]
 - `LwF`:Aligns old and new model outputs via knowledge distillation.[[paper](https://arxiv.org/abs/1606.09282)]
-- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.[[paper]()]
-- `GEM`: Includes exemplars in gradient updating.[[paper]()]
+- `iCaRL`: Retains exemplars from past classes and uses a nearest center mean classifier.[[paper](https://arxiv.org/abs/1611.07725)]
+- `GEM`: Includes exemplars in gradient updating.[[paper](https://arxiv.org/abs/1706.08840)]
 - `BiC`: Adds an adaptation layer to iCaRL for new class logits adjustment.[[paper]()]
 - `WA`: Normalizes weights post-learning, following iCaRL principles.[[paper]()]
 - `POD-Net`: Constrains network with pooled outputs distillation.[[paper]()]
