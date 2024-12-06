@@ -85,6 +85,7 @@ Please check the MIT  [license](./LICENSE) that is listed in this repository.
 ## Acknowledgments
 
 ## Contact
+If there are any questions, please feel free to  propose new features by opening an issue or contact with the author: **Qisheng Xu**( ). Enjoy the code.
 
 <!-- ## What's New
 - [2024-10]🌟 Check out our [latest work](https://arxiv.org/abs/2410.00911) on pre-trained model-based domain-incremental learning! 
