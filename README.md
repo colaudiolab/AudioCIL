@@ -108,13 +108,14 @@ Other parameters also can be modified in the corresponding Python file.
 
 ### Datasets
 
-We have implemented the pre-processing of `CIFAR100`, `imagenet100,` and `imagenet1000`. When training on `CIFAR100`, this framework will automatically download it.  When training on `imagenet100/1000`, you should specify the folder of your dataset in `utils/data.py`.
+We have implemented the pre-processing of `LS100`, `NSynth-100`, etc. When training on `LS100`, this framework will automatically download it.  When training on other datasets, you should specify the folder of your dataset in `utils/data.py`.
 
 ```python
     def download_data(self):
-        assert 0,"You should specify the folder of your dataset"
-        train_dir = '[DATA-PATH]/train/'
-        test_dir = '[DATA-PATH]/val/'
+        
+        train_dataset = LBRS(root="[DATA-PATH]/", phase="train")
+        test_dataset = LBRS(root="[DATA-PATH]/", phase="test")
+
 ```
 [Here](https://drive.google.com/drive/folders/1RBrPGrZzd1bHU5YG8PjdfwpHANZR_lhJ?usp=sharing) is the file list of ImageNet100 (or say ImageNet-Sub).
 
