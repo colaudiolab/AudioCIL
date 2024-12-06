@@ -101,10 +101,10 @@ Key global parameters include:
 - **increment**: The number of classes in each incremental stage $i$, $i$ ⩾ 1.
 - **convnet-type**: Selects the backbone network for the incremental model.
 - **seed**: Establishes the random seed for shuﬄing class orders, with a default value of 1993.
-- **isfew-shot**:Speciﬁes if the task scenario involves a few-shot learning setting.
-- **kshot**:Deﬁnes the number of samples per category in the few-shot learning scenario.
+- **isfew-shot**: Speciﬁes if the task scenario involves a few-shot learning setting.
+- **kshot**: Deﬁnes the number of samples per category in the few-shot learning scenario.
 
-Other parameters in terms of model optimization, e.g., batch size, optimization epoch, learning rate, learning rate decay, weight decay, milestone, and temperature, can be modified in the corresponding Python file.
+Other parameters also can be modified in the corresponding Python file.
 
 ### Datasets
 
