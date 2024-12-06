@@ -69,12 +69,12 @@ cd PyCIL
 ```
 
 ### Dependencies
-1.librosa
-2.torchaudio
-3.[numpy](https://github.com/numpy/numpy)
-4.[scipy](https://github.com/scipy/scipy)
-5.[torch](https://github.com/pytorch/pytorch)
-6.[torchvision](https://github.com/pytorch/vision)
+1. librosa
+2. torchaudio
+3. [numpy](https://github.com/numpy/numpy)
+4. [scipy](https://github.com/scipy/scipy)
+5. [torch](https://github.com/pytorch/pytorch)
+6. [torchvision](https://github.com/pytorch/vision)
 7. [tqdm](https://github.com/tqdm/tqdm)
 8. [POT](https://github.com/PythonOT/POT)
 
