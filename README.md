@@ -117,7 +117,7 @@ We have implemented the pre-processing of `LS100`, `NSynth-100`, etc. When train
         test_dataset = LBRS(root="[DATA-PATH]/", phase="test")
 
 ```
-[Here](https://drive.google.com/drive/folders/1RBrPGrZzd1bHU5YG8PjdfwpHANZR_lhJ?usp=sharing) is the file list of ImageNet100 (or say ImageNet-Sub).
+[Here](xxx) is the file list of LS100.
 
 
 ## License
