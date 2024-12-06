@@ -49,6 +49,11 @@ In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art al
 - `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting.[[paper](https://ieeexplore.ieee.org/document/10494541)]
 
 ## Reproduced Results
+#### LS-100
+
+<div align="center">
+<img src="./resources/LS100.png" width="900px">
+</div>
 
 ## How To Use
 
