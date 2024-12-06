@@ -28,6 +28,9 @@
 </div>
 
 Welcome to AudioCIL, perhaps the toolbox for class-incremental learning with the **most** implemented methods. This is the code repository for "AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes" [[paper]](xxx) in PyTorch. If you use any content of this repo for your work, please cite the following bib entries:
+```
+bib
+```
 
 ## Introduction
 Deep learning, with its robust automatic feature extraction capabilities, has demonstrated signiﬁcant potential in capturing discriminative representations of signals, becoming the dominant method for audio classiﬁcation. Typically, these methods rely heavily on static, pre-collected large-scale datasets for training, performing well on a ﬁxed number of classes. However, the real world is characterized by constant change, with audio classes emerging from streaming formats or becoming available temporarily due to privacy concerns. This dynamic nature of audio environments necessitates models that can incrementally learn new knowledge for new classes without discarding existing knowledge.Introducing incremental learning to the ﬁeld of audio classiﬁcation, i.e., Audio Class-Incremental Learning (ACIL), is a meaningful endeavor.we propose such a toolbox using the Python programming language, which is widely adopted within the research community.The toolbox includes mainstream CIL methods.Its comprehensive standard library and active community support greatly facilitate the development process. Moreover, its cross-platform compatibility ensures that the library can be readily deployed across diﬀerent operating systems.This toolbox, named AudioCIL for Python Audio Class-Incremental Learning, is open source with an MIT license.
@@ -65,7 +68,7 @@ Clone this GitHub repository:
 
 ```
 git clone https://github.com/colaudiolab/AudioCIL.git
-cd PyCIL
+cd AudioCIL
 ```
 
 ### Dependencies
