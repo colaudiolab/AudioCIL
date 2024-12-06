@@ -117,7 +117,7 @@ We have implemented the pre-processing of `LS100`, `NSynth-100`, etc. When train
         test_dataset = LBRS(root="[DATA-PATH]/", phase="test")
 
 ```
-[Here](xxx) is the file list of LS100.
+[Here](xxxx) is the file list of LS100.
 
 
 ## License
