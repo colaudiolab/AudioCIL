@@ -96,13 +96,13 @@ Users can customize AudioCIL by adjusting global parameters and algorithmspeci�
 
 Key global parameters include:
 
-- **memory-size**: The total exemplar number in the incremental learning process. Assuming there are $K$ classes at the current stage, the model will preserve $\left[\frac{memory-size}{K}\right]$ exemplar per class.
-- **init-cls**: The number of classes in the first incremental stage. Since there are different settings in CIL with a different number of classes in the first stage, our framework enables different choices to define the initial stage.
-- **increment**: The number of classes in each incremental stage $i$, $i$ > 1. By default, the number of classes per incremental stage is equivalent per stage.
-- **convnet-type**: The backbone network for the incremental model. According to the benchmark setting, `ResNet32` is utilized for `CIFAR100`, and `ResNet18` is used for `ImageNet`.
-- **seed**: The random seed adopted for shuffling the class order. According to the benchmark setting, it is set to 1993 by default.
-- **isfew-shot**:
-- **kshot**:
+- **memory-size**: Speciﬁes the capacity of the replay buﬀer used in the incremental learning process.
+- **init-cls**: Determines the number of classes in the initial incremental stage. 
+- **increment**: The number of classes in each incremental stage $i$, $i$ ⩾ 1.
+- **convnet-type**: Selects the backbone network for the incremental model.
+- **seed**: Establishes the random seed for shuﬄing class orders, with a default value of 1993.
+- **isfew-shot**:Speciﬁes if the task scenario involves a few-shot learning setting.
+- **kshot**:Deﬁnes the number of samples per category in the few-shot learning scenario.
 
 Other parameters in terms of model optimization, e.g., batch size, optimization epoch, learning rate, learning rate decay, weight decay, milestone, and temperature, can be modified in the corresponding Python file.
 
