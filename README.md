@@ -39,19 +39,19 @@ Deep learning, with its robust automatic feature extraction capabilities, has de
 In AudioCIL, we have implemented a total of 16 classic and 3 state-of-the-art algorithms for incremental learning.
 - `FineTune`: Updates model with new task data, prone to catastrophic forgetting.
 - `Replay`: Updates model with a mix of new data and samples from a replay buffer.
-- `EWC`: Overcoming catastrophic forgetting in neural networks. PNAS2017[[paper](https://arxiv.org/abs/1612.00796)]
-- `LwF`:Learning without Forgetting.ECCV2016[[paper](https://arxiv.org/abs/1606.09282)]
-- `iCaRL`:  Incremental Classifier and Representation Learning.CVPR2017[[paper](https://arxiv.org/abs/1611.07725)]
-- `GEM`: Gradient Episodic Memory for Continual Learning.NIPS2017[[paper](https://arxiv.org/abs/1706.08840)]
-- `BiC`: Large Scale Incremental Learning.CVPR2019[[paper](https://arxiv.org/abs/1905.13260)]
-- `WA`: Maintaining Discrimination and Fairness in Class Incremental Learning.CVPR2020[[paper](https://arxiv.org/abs/1911.07053)]
-- `POD-Net`: Pooled Outputs Distillation for Small-Tasks Incremental Learning.ECCV2020[[paper](https://arxiv.org/abs/2004.13513)]
-- `DER`: Dynamically Expandable Representation for Class Incremental Learning.CVPR2021[[paper](https://arxiv.org/abs/2103.16788)]
-- `Coil`: Co-Transport for Class-Incremental Learning.ACM MM 2021[[paper](https://arxiv.org/abs/2107.12654)]
-- `ACIL`: Analytic Class-Incremental Learning with Absolute Memorization and Privacy Protection. NeurIPS2022[[paper](https://arxiv.org/abs/2205.14922)]
-- `META-SC`: Few-shot Class-incremental Audio Classification Using Stochastic Classifier.INTERSPEECH2023[[paper](https://arxiv.org/abs/2306.02053)]
-- `PAN`: Few-shot Class-incremental Audio Classification Using Dynamically Expanded Classifier with Self-attention Modified Prototypes.IEEE TMM[[paper](https://arxiv.org/abs/2305.19539)]
-- `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting.[[paper](https://ieeexplore.ieee.org/document/10494541)]
+- `EWC`: Overcoming catastrophic forgetting in neural networks. PNAS2017 [[paper](https://arxiv.org/abs/1612.00796)]
+- `LwF`:Learning without Forgetting.ECCV2016 [[paper](https://arxiv.org/abs/1606.09282)]
+- `iCaRL`:  Incremental Classifier and Representation Learning.CVPR2017 [[paper](https://arxiv.org/abs/1611.07725)]
+- `GEM`: Gradient Episodic Memory for Continual Learning.NIPS2017 [[paper](https://arxiv.org/abs/1706.08840)]
+- `BiC`: Large Scale Incremental Learning.CVPR2019 [[paper](https://arxiv.org/abs/1905.13260)]
+- `WA`: Maintaining Discrimination and Fairness in Class Incremental Learning. CVPR2020 [[paper](https://arxiv.org/abs/1911.07053)]
+- `POD-Net`: Pooled Outputs Distillation for Small-Tasks Incremental Learning. ECCV2020 [[paper](https://arxiv.org/abs/2004.13513)]
+- `DER`: Dynamically Expandable Representation for Class Incremental Learning. CVPR2021 [[paper](https://arxiv.org/abs/2103.16788)]
+- `Coil`: Co-Transport for Class-Incremental Learning. ACM MM 2021 [[paper](https://arxiv.org/abs/2107.12654)]
+- `ACIL`: Analytic Class-Incremental Learning with Absolute Memorization and Privacy Protection. NeurIPS2022 [[paper](https://arxiv.org/abs/2205.14922)]
+- `META-SC`: Few-shot Class-incremental Audio Classification Using Stochastic Classifier. INTERSPEECH2023 [[paper](https://arxiv.org/abs/2306.02053)]
+- `PAN`: Few-shot Class-incremental Audio Classification Using Dynamically Expanded Classifier with Self-attention Modified Prototypes. IEEE TMM [[paper](https://arxiv.org/abs/2305.19539)]
+- `AMFO`: Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting. [[paper](https://ieeexplore.ieee.org/document/10494541)]
 
 ## Reproduced Results
 #### LS-100
@@ -129,4 +129,4 @@ Please check the MIT  [license](./LICENSE) that is listed in this repository.
 ## Acknowledgments
 
 ## Contact
-If there are any questions, please feel free to  propose new features by opening an issue or contact with the author: **Kele Xu**([xukelele@163.com](mailto:xukelele@163.com)), **Qisheng Xu**([qishengxu@nudt.edu.cn](mailto:qishengxu@nudt.edu.cn)), **Yulin Sun**([sunyulin_edu@163.com](mailto:sunyulin_edu@163.com)), **Yi Su**([email_suyi@163.com](mailto:email_suyi@163.com)), **Qian Zhu**([zhuqian@nudt.edu.cn](mailto:zhuqian@nudt.edu.cn)), **Xiaoyi Tan**([350869445@qq.com](mailto:350869445@qq.com)) and **Hongyu Wen**([wen1223414499@gmail.com](mailto:wen1223414499@gmail.com)). Enjoy the code.
+If there are any questions, please feel free to  propose new features by opening an issue or contact with the author: **Kele Xu**([xukelele@163.com](mailto:xukelele@163.com)), **Qisheng Xu**([qishengxu@nudt.edu.cn](mailto:qishengxu@nudt.edu.cn)), **Yulin Sun**([sunyulin_edu@163.com](mailto:sunyulin_edu@163.com)), **Yi Su**([email_suyi@163.com](mailto:email_suyi@163.com)), **Qian Zhu**([zhuqian@nudt.edu.cn](mailto:zhuqian@nudt.edu.cn)), **Xiaoyi Tan**([350869445@qq.com](mailto:350869445@qq.com)) and **Hongyu Wen**([wen1223414499@gmail.com](mailto:wen1223414499@gmail.com)).
