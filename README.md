@@ -126,7 +126,13 @@ We have implemented the pre-processing of `LS100`, `NSynth-100`, etc. When train
 ## License
 Please check the MIT  [license](./LICENSE) that is listed in this repository.
 
+
 ## Acknowledgments
+We thank the following repos providing helpful components/functions in our work.
+
+- [PyCIL](https://github.com/G-U-N/PyCIL/tree/master)
+- [FCAC_datasets](https://github.com/chester-w-xie/FCAC_datasets)
+
 
 ## Contact
 If there are any questions, please feel free to  propose new features by opening an issue or contact with the author: **Kele Xu** ([xukelele@163.com](mailto:xukelele@163.com)), **Qisheng Xu** ([qishengxu@nudt.edu.cn](mailto:qishengxu@nudt.edu.cn)), **Yulin Sun** ([sunyulin_edu@163.com](mailto:sunyulin_edu@163.com)), **Yi Su** ([email_suyi@163.com](mailto:email_suyi@163.com)), **Qian Zhu** ([zhuqian@nudt.edu.cn](mailto:zhuqian@nudt.edu.cn)), **Xiaoyi Tan** ([350869445@qq.com](mailto:350869445@qq.com)) and **Hongyu Wen** ([wen1223414499@gmail.com](mailto:wen1223414499@gmail.com)).
