@@ -29,7 +29,12 @@
 
 Welcome to AudioCIL, perhaps the toolbox for class-incremental learning with the **most** implemented methods. This is the code repository for "AudioCIL: AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with multiple scenes" [[paper]](xxx) in PyTorch. If you use any content of this repo for your work, please cite the following bib entries:
 ```
-bib
+@article{xu2024AudioCIL,
+  title={AudioCIL: A Python Toolbox for Audio Class-Incremental Learning with Multiple Scenes},
+  author={Qisheng Xu, Yulin Sun, Yi Su, Qian Zhu, Xiaoyi Tan, Hongyu Wen, Zijian Gao, Kele Xu, Yong Dou, Dawei Feng},
+  journal={arXiv preprint arXiv:2412.11907},
+  year={2024}
+}
 ```
 
 ## Introduction
